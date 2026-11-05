@@ -19,7 +19,7 @@
     - music:  path to an MP3 you have the rights to. null = no background music.
 */
 window.INVITE = {
-  siteUrl: "https://sridharrenangi.github.io/rishitha-vinod-wedding/",
+  siteUrl: "https://vinod-rishitha.github.io/rishitha-vinod-wedding/",
 
   // India time (IST, +05:30). Used for the countdown and calendar entries.
   events: {

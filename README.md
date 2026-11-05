@@ -14,7 +14,7 @@ The background music is "Traditional wedding ceremonial vibe with shehnai" by De
 It starts softly when a guest taps "Open invitation", loops, and pauses if they switch apps. A small button in the corner turns it on and off. To change the track, replace the file and update `music` in `content.js`. Use only music you're allowed to use.
 ## Opening the Telugu version directly
 Add `?lang=te` to the link:
-`https://sridharrenangi.github.io/rishitha-vinod-wedding/?lang=te`
+`https://vinod-rishitha.github.io/rishitha-vinod-wedding/?lang=te`
 
 ## Previewing on this Mac
 ```bash
