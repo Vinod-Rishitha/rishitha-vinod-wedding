@@ -428,22 +428,24 @@ html:not(.is-locked) .open-btn { visibility: hidden; }
 .person-intro { margin-top: 0.35rem; color: var(--ink-soft); white-space: pre-line; line-height: 1.45; }
 .amp-large { margin-top: 0.75rem; font-size: var(--step-3); }
 
-/* Arched portrait inside the arched invitation */
+/* Arched portrait inside the arched invitation.
+   The photo is landscape (3:2), so the arch is a shallow dome
+   that clears both faces rather than a tall semicircle. */
 .portrait {
   margin: 2.5rem auto 0;
-  width: min(100%, 21rem);
+  width: min(100%, 34rem);
   padding: 0.5rem;
   border: 1px solid var(--brass);
-  border-radius: 999px 999px 0.4rem 0.4rem;
+  border-radius: 50% 50% 0.4rem 0.4rem / 40% 40% 0.4rem 0.4rem;
   background: var(--paper);
   box-shadow: 0 18px 28px -20px rgba(59, 43, 31, 0.6);
 }
 .portrait img {
   width: 100%;
-  aspect-ratio: 3 / 4.4;
+  aspect-ratio: 3 / 2;
   object-fit: cover;
-  object-position: 50% 8%;
-  border-radius: 999px 999px 0.2rem 0.2rem;
+  object-position: 50% 50%;
+  border-radius: 50% 50% 0.2rem 0.2rem / 40% 40% 0.2rem 0.2rem;
 }
 
 /* Section titles with a lotus-bud divider beneath */

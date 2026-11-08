@@ -34,17 +34,17 @@ window.INVITE = {
   photos: [
     // ┌─────────────┬───┐
     // │ ring 3×2    │1×2│   rows 1–2
-    // ├───────┬─────┴───┤
-    // │       │ hands   │   row 3   (2×1)
-    // │ 2×3   ├─────────┤
-    // │       │ 2×2     │   rows 4–5
-    // └───────┴─────────┘
+    // ├─────────────┴───┤
+    // │ bouquet 4×2     │   rows 3–4
+    // ├────────┬────────┤
+    // │ hands  │ 2×1    │   row 5
+    // └────────┴────────┘
     // 20 squares = 4 wide × 5 tall
     { src: "assets/photos/gallery/08.jpg", w: 3, h: 2, focus: "50% 50%", alt: "Vinod Sai slipping a ring onto Rishitha's finger in front of the flower stage" },
     { src: "assets/photos/gallery/03.jpg", w: 1, h: 2, focus: "68% 35%", alt: "Rishitha smiling at Vinod Sai" },
-    { src: "assets/photos/gallery/05.jpg", w: 2, h: 3, focus: "50% 50%", alt: "Vinod Sai kneeling to give Rishitha a bouquet" },
-    { src: "assets/photos/gallery/04.jpg", w: 2, h: 1, focus: "50% 50%", alt: "Vinod Sai placing a ring on Rishitha's open palm" },
-    { src: "assets/photos/gallery/01.jpg", w: 2, h: 2, focus: "50% 40%", alt: "Vinod Sai and Rishitha with their foreheads touching" },
+    { src: "assets/photos/gallery/05.jpg", w: 4, h: 2, focus: "50% 30%", alt: "Vinod Sai, garlanded, kneeling to give Rishitha a bouquet of red roses" },
+    { src: "assets/photos/gallery/04.jpg", w: 2, h: 1, focus: "50% 88%", alt: "Vinod Sai placing a ring on Rishitha's open palm" },
+    { src: "assets/photos/gallery/01.jpg", w: 2, h: 1, focus: "50% 20%", alt: "Vinod Sai and Rishitha with their foreheads touching" },
   ],
 
   // "Traditional wedding ceremonial vibe with shehnai" by DesiFreeMusic,
@@ -68,7 +68,7 @@ window.INVITE = {
       groomHonorific: "Chi.",
       groomFull: "M. Vinod Sai",
       groomIntro: "B.Tech., MBA (IIM Shillong)\nSenior Manager, JSW",
-      photoAlt: "Rishitha and Vinod Sai, garlanded, holding a bouquet of red roses",
+      photoAlt: "Vinod Sai holding Rishitha's hand as they smile at each other on the flower stage",
 
       blessingsTitle: "With the blessings of",
       bridesParentsLabel: "Bride's parents",
@@ -139,7 +139,7 @@ window.INVITE = {
       groomHonorific: "చి॥",
       groomFull: "యం. వినోద్ సాయి",
       groomIntro: "B.Tech., MBA (IIM Shillong)\nSr. Manager, JSW",
-      photoAlt: "పూలమాలలతో, ఎర్ర గులాబీల గుత్తితో రిషిత మరియు వినోద్ సాయి",
+      photoAlt: "పూల వేదికపై రిషిత చేయి పట్టుకుని, ఒకరినొకరు చూసి నవ్వుకుంటున్న వినోద్ సాయి, రిషిత",
 
       blessingsTitle: "పెద్దల ఆశీస్సులతో",
       bridesParentsLabel: "వధువు తల్లిదండ్రులు",
