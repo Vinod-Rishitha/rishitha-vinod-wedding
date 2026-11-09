@@ -390,11 +390,13 @@ html:not(.is-locked) .open-btn { visibility: hidden; }
 .blessings::before, .event::before, .venue::before { top: 0; left: 0; }
 .blessings::after, .event::after, .venue::after { right: 0; bottom: 0; rotate: 180deg; }
 
-/* The invitation itself: an arched temple doorway, with a faint mandala in the arch */
+/* The invitation itself: an arched temple doorway, with a faint mandala in the arch.
+   The mandala only frames Ganesha and the opening line: it is sized to end
+   above the bride's name so the names never sit on top of its lines. */
 .invite {
   position: relative;
   background:
-    url("assets/ornaments/mandala.svg") center 1rem / min(22rem, 92%) auto no-repeat,
+    url("assets/ornaments/mandala.svg") center 1rem / min(14rem, 80%) auto no-repeat,
     var(--paper-grain),
     var(--panel);
   border: 1px solid var(--brass);
