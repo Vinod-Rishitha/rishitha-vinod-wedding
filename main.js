@@ -187,7 +187,7 @@
     musicBtn.setAttribute("aria-pressed", String(on));
     updateMusicLabel();
   }
-  // Fade in gently so the shehnai never starts loud.
+  // Fade in gently so the music never starts loud.
   function fadeIn() {
     var target = 0.5, step = 0.025;
     var t = setInterval(function () {
