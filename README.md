@@ -9,7 +9,7 @@ All the text is in `content.js`, in English (`en`) and Telugu (`te`). Change bot
 Put the photos in `assets/photos/gallery/`, about 1200 px on the long side, and list them under `photos` in `content.js`. The gallery appears once at least one photo is listed.
 
 ## Music
-The background music is "Traditional wedding ceremonial vibe with shehnai" by DesiFreeMusic, from [Pixabay](https://pixabay.com/music/wedding-traditional-wedding-ceremonial-vibe-with-shehna-376293/), used under the Pixabay Content License. It's saved as `assets/music/wedding-shehnai.m4a`.
+The background music is a 25-second clip chosen by the family, saved as `assets/music/wedding-song.mp3`. Its title and source aren't recorded here yet.
 
 It starts softly when a guest taps "Open invitation", loops, and pauses if they switch apps. A small button in the corner turns it on and off. To change the track, replace the file and update `music` in `content.js`. Use only music you're allowed to use.
 ## Opening the Telugu version directly

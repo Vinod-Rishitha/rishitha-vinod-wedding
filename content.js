@@ -47,9 +47,8 @@ window.INVITE = {
     { src: "assets/photos/gallery/01.jpg", w: 2, h: 1, focus: "50% 20%", alt: "Vinod Sai and Rishitha with their foreheads touching" },
   ],
 
-  // "Traditional wedding ceremonial vibe with shehnai" by DesiFreeMusic,
-  // from Pixabay (Pixabay Content License: free to use, no attribution needed).
-  music: "assets/music/wedding-shehnai.m4a",
+  // A 25-second clip chosen by the family. It loops for as long as the page is open.
+  music: "assets/music/wedding-song.mp3",
 
   text: {
     en: {
